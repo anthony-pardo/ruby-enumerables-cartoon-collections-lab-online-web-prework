@@ -4,7 +4,9 @@ def roll_call_dwarves(names)# code an argument here
   names.each_with_index { |name, index|
     hash[name] = index
   }
-  puts hash
+  hash.each do |name|
+    puts hash
+  end
 end
 
 def summon_captain_planet# code an argument here
