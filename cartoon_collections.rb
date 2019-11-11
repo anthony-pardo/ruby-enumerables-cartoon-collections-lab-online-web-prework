@@ -5,7 +5,7 @@ def roll_call_dwarves(names)# code an argument here
     hash[name] = index
   }
   hash.each do |name|
-    puts hash
+    puts name
   end
 end
 
