@@ -4,8 +4,8 @@ def roll_call_dwarves(names)# code an argument here
   names.each_with_index { |name, index|
     hash[name] = index
   }
-  hash.each do |name|
-    puts name
+  hash.each do |name, index|
+    puts name + index
   end
 end
 
