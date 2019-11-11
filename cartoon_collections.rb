@@ -30,8 +30,7 @@ def find_the_cheese(arr)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |type|
   if arr.include(type)
-    return cheese_types[i]
-  i += 1 
+    return type
   end
   return nil 
 end
