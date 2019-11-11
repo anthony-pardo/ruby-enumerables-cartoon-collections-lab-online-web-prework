@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(calls)# code an argument here
   # Your code here
-  calls.collect()
+  calls.collect{ |call| call + "!" }
 end
 
 def long_planeteer_calls# code an argument here
